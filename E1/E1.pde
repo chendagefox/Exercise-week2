@@ -45,7 +45,7 @@ void draw()
   ellipse(310,200,a,a);
   println(a);
   a -= 2;
-  b -= a;
+  b += a;
   a = a % (50*b); //a % (50 * (b-a))
   
  
