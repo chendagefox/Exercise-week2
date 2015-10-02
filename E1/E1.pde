@@ -25,7 +25,7 @@ void setup()
   a = 50;
   size(500,500);
   background(255);
-  b = -1;
+  b = -50;
 }
 
 void draw()
