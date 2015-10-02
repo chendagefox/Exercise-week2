@@ -43,11 +43,10 @@ void draw()
   fill(0);
   ellipse(190,200,a,a);
   ellipse(310,200,a,a);
-  println(a);
   a -= 2;
-  b += a;
-  a = a % (50*b); //a % (50 * (b-a))
-  
+  b += 2;
+  ellipse(190,200,b,b);
+  ellipse(310,200,b,b);
  
  
 }
