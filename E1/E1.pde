@@ -43,8 +43,8 @@ void draw()
   fill(0);
   ellipse(190,200,a,a);
   ellipse(310,200,a,a);
-  a -= 2;
-  b += 2;
+  a -= 1;
+  b += 1;
   ellipse(190,200,b,b);
   ellipse(310,200,b,b);
  
